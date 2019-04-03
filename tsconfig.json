@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "target": "esnext",
+    "jsx": "react",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "paths": {
+        "Components/*": ["src/components/*"],
+        "Utils/*": ["src/utils/*"],
+        "Actions/*": ["src/actions/*"],
+    }
+    },
+  "exclude": [
+    "node_modules"
+  ]
+}
